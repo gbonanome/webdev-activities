@@ -1,0 +1,88 @@
+body{
+  background-color: #000;
+  margin-left:1em;
+}
+
+h1{
+  margin-bottom:0em;
+}
+
+p{
+  padding-bottom:1em;
+}
+
+body{
+  color:#fff;
+}
+
+code{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1em;
+  font-weight:300;
+}
+
+h1{
+  font-family: 'Finger Paint', sans-serif;
+  font-size:4em;
+}
+
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  font-weight:400;
+}
+
+p{
+  font-family: 'Roboto Slab', sans-serif;
+  font-size:1.25em;
+  font-weight:400;
+}
+
+
+#head{
+  background-image:url('webotron-head.png');
+  background-repeat:no-repeat;
+  float:left;
+  height:200px;
+  width:200px;
+  clear:right;
+
+}
+
+#armOne{
+  background-image:url('webotron-arm-1.png');
+  float:left;
+  height:200px;
+  width:50px;
+  clear:left;
+}
+
+#body {
+  background-image:url('webotron-body.png');
+  float:right;
+  height:200px;
+  width:100px;
+  clear:right;
+}
+
+#armTwo{
+  background-image:url('webotron-arm-2.png');
+  float:right;
+  height:200px;
+  width:50px;	
+}
+
+#legOne{
+  background-image:url('webotron-leg-1.png');
+  float:left;
+  height:200px;
+  width:100px;
+  clear:right;
+}
+
+#legTwo{
+  background-image:url('webotron-leg-2.png');
+  float:center;
+  height:200px;
+  width:100px;
+}
