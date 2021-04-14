@@ -1,0 +1,81 @@
+body {
+	background: linear-gradient(180deg, #a30000, #f44e4e);
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Sacramento', cursive;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+.intro {
+	margin: 40px auto;
+	width: 80vw;
+	text-align: center;
+}
+
+#calendario {
+	display: grid;
+	grid-template-rows: repeat(8, 160px);
+	grid-template-columns: repeat(3, 1fr);
+	width: 80vw;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+
+.box, .box:link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #fff;
+	border: 1px dashed #0000001f;
+
+	font-size: 2rem;
+	color: #1b831d;
+	text-decoration: none;
+}
+
+.box:hover, .box:active {
+	background: linear-gradient(90deg,#60b059,#f2d26e);
+	color: #fff;
+}
+
+.back {
+	display: block;
+	padding: 40px;
+	color: #fff;
+	font-size: 2em;
+	text-decoration: none;
+}
+
+.hero {
+	width: 60vw;
+	margin: 0 auto;
+	padding: 60px;
+	font-size: 1.2em;
+	line-height: 1.8em;
+}
+
+.hero p::first-letter {
+	font-size: 4em;
+	float: left;
+	padding: 10px;
+	margin: 10px;
+	border: 1px dashed #fff;
+}
+
+.animate {
+	width: 20vw;
+	transition: width 1s, transform 1s;
+}
+
+.animate:hover {
+	width: 60vw;
+	transform: rotate(90deg);
+}
+

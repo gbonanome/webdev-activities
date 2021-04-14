@@ -1,0 +1,39 @@
+/*
+ * Modifica questo foglio di stile utilizzando grid css e le sue proprietà
+ * per fare in modo che l'header occupi tutta la pagina e il footer sia 
+ * sempre sul fondo della pagina.
+ * <nav> <main> e <aside> devono essere tre colonne e occupare l'altezza
+ * tra header e footer. La colonna centrale <main> deve essere più larga
+ * delle altre due.
+ *
+ *          *----------------------*
+ *          |  header              |
+ *          *----------------------* 
+ *          |     |          |     |
+ *          | nav |   main   |aside|
+ *          |     |          |     |
+ *          |     |          |     |
+ *          *----------------------*  
+ *          |  footer              |
+ *          *----------------------*
+ *
+ *
+ */
+
+body {
+  background: #c03546;
+}
+
+header,
+nav,
+aside,
+main,
+footer {
+  background: white;
+  padding: 1em;
+}
+
+body {
+  min-height: 100vh;
+}
+

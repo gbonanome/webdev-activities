@@ -1,0 +1,65 @@
+/*
+ * Modifica questo foglio di stile utilizzando flexbox e le sue proprietà
+ * per fare in modo che l'immagine e il tag H1 siano sempre al centro
+ * della pagina (sia in orizzontale che in verticale) e il footer sia sempre
+ * sul fondo della pagina. 
+ * Nel footer prova a creare un menu di navigazione orizzontale applicando 
+ * gli stili corretti al tag <ul>
+ *
+ *          *----------------------*
+ *          |                      |
+ *          |                      |
+ *          |       immagine       |
+ *          |        titolo        |
+ *          |                      |
+ *          |                      |
+ *          *----------------------*  
+ *          |  footer              |
+ *          *----------------------*
+ *
+ *
+ */
+
+img {
+	max-width: 200px;
+	border-radius: 999px;
+}
+
+body {
+	display: flex;
+	height: 100vh;
+	flex-flow: column nowrap;
+	font-family: sans-serif;
+	margin: 0;
+	overflow: hidden;
+}
+
+main {
+	background-color: #4bc2c5;
+	flex-grow: 2;
+	display: flex;
+	flex-flow: column-reverse;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	background-color: #fef4a9;
+	padding: 2vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+	padding: 10px;
+}

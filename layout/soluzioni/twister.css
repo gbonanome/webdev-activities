@@ -1,0 +1,37 @@
+/*
+ * Modifica questo foglio di stile utilizzando flexbox e le sue proprietà
+ * per ottenere un tabellone per giocare a Twister!!!
+ *
+ */
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  
+  border: 2px solid #000;
+  border-radius: 3px;
+}
+
+main li {
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 999px;
+  border: 2px solid #999;
+  margin-bottom: 2em;
+}
+
+.yellow li {
+  background-color: yellow;
+}
+.red li {
+  background-color: red;
+}
+.blue li {
+  background-color: blue;
+}
+.green li {
+  background-color: green;
+}

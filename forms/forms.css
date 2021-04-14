@@ -1,0 +1,99 @@
+body {
+	font-family: sans-serif;
+}
+
+#stiloso {
+	display: flex;
+	flex-flow: column wrap;
+	width: 40vw;
+	margin: 0 auto;
+}
+
+#stiloso fieldset {
+	border: none;
+	background-color: aliceblue;
+	margin: 5px 0;
+	padding: 0 20px;
+	border-radius: 4px;
+}
+
+/* Form fields */
+#stiloso fieldset p {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+#stiloso fieldset:first-child p:first-child label {
+	text-align: center;
+}
+
+#stiloso fieldset:first-child p:first-child label:first-child {
+	flex-grow: 1;
+	text-align: left;
+}
+
+#stiloso p input,
+#stiloso p textarea {
+	box-sizing: border-box;
+	box-shadow: inset 0 2px 3px #ddd;
+	border: none;
+	padding: 0.1rem 0.6rem;
+	font-size: 0.8em;
+	border-radius: 4px;
+}
+
+#stiloso p input,
+#stiloso p select {
+	height: 2rem;
+	width: 60%;
+}
+
+#stiloso p textarea {
+	width: 60%;
+	height: 6em;
+	font-size: 1em;
+	font-family: -apple-system, system-ui;
+}
+
+#stiloso input[type="checkbox"] {
+	width: auto;
+	height: 1.4em;
+}
+
+#stiloso p input:focus,
+#stiloso p textarea:focus {
+	border: 1px solid #4293b3;
+	box-shadow: none;
+}
+
+/* Form Buttons */
+#stiloso .pulsanti {
+	display: flex;
+	flex-flow: row-reverse wrap;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+#stiloso .pulsanti button {
+	height: 3em;
+	border: none;
+	border-radius: 4px;
+	font-size: 1.1em;
+	padding: 0 20px;
+	box-shadow: 1px 1px 1px #000;
+}
+
+#stiloso .pulsanti button:hover {
+	cursor: pointer;
+	box-shadow: none;
+}
+
+#stiloso .pulsanti button[type="reset"] {
+	background-color: #ff000040;
+}
+
+#stiloso .pulsanti button {
+	background-color: #00800045;
+}

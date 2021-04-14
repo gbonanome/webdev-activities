@@ -1,0 +1,41 @@
+/*
+ * Modifica questo foglio di stile utilizzando flexbox e le sue proprietà
+ * per creare delle cards dove l'area occupata da immagini è
+ * della stessa altezza, ovvero l'inizio dei paragrafi è allineato
+ * in orizzontale tra cards diverse.
+ *
+ *          *--------*  *--------*  *--------*
+ *          |        |  |        |  |        |
+ *          |  img   |  |  img   |  |  img   |
+ *          |        |  |        |  |        |
+ *          *--------*  *--------*  *--------*
+ *          | title  |  | title  |  | title  |
+ *          |        |  |        |  |        |
+ *          | text   |  | text   |  | text   |
+ *          |        |  *--------*  |        |
+ *          *--------*              |        | 
+ *                                  |        |
+ *                                  *--------*
+ *
+ *
+ */
+
+.card {
+  background-color: #facf5a;
+  margin-top: 20px;
+}
+
+.cover {
+  background-color: #49beb7;
+}
+
+img {
+  max-width: 100%;
+  padding: 2vw;
+  box-sizing: border-box;
+  object-fit: scale-down;
+}
+
+.content {
+  padding: 2vw;
+}

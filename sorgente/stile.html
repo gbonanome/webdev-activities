@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Il mio primo sito web</title>
+    
+    <!-- Per rendere piu' bella la pagina si usa un altro linguaggio, diverso dall'HTML, che si chiama CSS o foglio di stile. Serve a dire al computer di che colore vogliamo il testo, quanto grande dev'essere un'immagine e tante altre cose simili.
+    Possiamo usare il tag <style> per parlare questo linguaggio direttamente dentro ad una pagina HTML.
+    -->    
+    <style>
+
+        /* 
+            Siccome abbiamo cambiato linguaggio, anche i simboli per i commenti sono cambiati. Per cominciare diciamo al computer come deve mostrare tutto quello che è contenuto dentro al tag <body>.
+            Il linguaggio CSS e' formato di selettori e proprietà. Il selettore indica al computer quale elemento della pagina va stilato. La proprietà definisce la caratteristica da stilare.
+        */
+        body {
+            background: url('images/sfondo_blu.jpg') no-repeat;
+            font-family: 'Helvetica Neue', sans-serif;
+            color: #eee;
+        }
+
+        /* E se volessimo stilare i nostri paragrafi? Provate a togliere il commento dalla regola qui sotto. Cosa succede? */
+        /*
+        p {
+            font-size: 40px;
+        }
+        */
+        
+        /* Quando troviamo un selettore con un punto davanti, stiamo parlando di una classe. Le classi possono essere applicate a qualsiasi tag della pagina HTML. Prova a guardare il tag <img> di questa pagina */
+        .avatar {
+            max-width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+        <h1>Benvenuti</h1>
+        <h2>Questo &egrave; il mio primo sito web.</h2>
+
+        <img src="images/finn.png" title="Finn di Adventure Time" class="avatar">
+
+        <hr>
+        <h3>Questa &egrave; una intestazione pi&ugrave; piccola.</h3>
+        <p>Un sito web è fatto di tante parti, le più importanti sono:</p>
+        <ul>
+            <li>
+                La <strong>struttura della pagina</strong>, che si crea usando i <em>tag HTML</em>
+            </li>
+            <li>
+                Lo <strong>stile degli elementi</strong>, che si applica usando i <em>fogli di stile CSS</em>
+            </li>
+            <li>
+                La possibilità di <strong>interagire con gli elementi</strong>, che si realizza utilizzando il <em>linguaggio Javascript</em>
+            </li>
+        </ul>
+    </body>
+</html>
+
+    
+<!-- 
+    Ora che hai imparato come fare una pagina web, possiamo provare a collegare tante pagine fra loro usando i link.
+    Prova ad andare a questa pagina http://gbonanome.github.io/coderdojopd/il-mio-primo-sito-web/link.html
+-->
+
+

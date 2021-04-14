@@ -1,0 +1,41 @@
+div {
+  display: block;
+  opacity:0.5;
+  border-width: 3px;
+  border-style: solid;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+/* Colors */
+#blockOne {background-color: #f00; border-color: #a00;}
+#blockTwo {background-color: #ff0; border-color: #aa0;}
+#blockThree {background-color: #00f; border-color: #00a;}
+#blockFour {background-color: #0ff; border-color: #0aa;}
+#blockFive {background-color: #d22; border-color: #2dd;}
+#blockSix {background-color: #dd22c0; border-color: #ff00d7;}
+#blockSeven {background-color: #10cc00; border-color: #b3cc00;}
+#blockEight {background-color: #eedf00; border-color: #eeb300;;}
+#blockNine {background-color: #b00; border-color: #00b;}
+
+/* Dimensions */
+#blockOne {width: 200px; height: 200px;}
+#blockTwo {width: 100px; height: 100px;}
+#blockThree {width: 300px; height: 300px;}
+#blockFour {width: 20vw; height: 20vw;}
+#blockFive {width: 40%; height: 40%;}
+#blockSix {width: 10em; height: 10em;}
+#blockSeven {width: 50rem; height: 50rem;}
+#blockEight {width: 60ch; height: 60ch;}
+#blockNine {width: 150px; height: 150px;}
+
+/* Positions */
+#blockOne {top: 25px; left: 25px; z-index: 1}
+#blockTwo {top: 175px; left: 250px; z-index: 0}
+#blockThree {top: 325px; left: 475px; z-index: 2}
+#blockFour {bottom: 50px; left: 100px; z-index: 1}
+#blockFive {top: 125px; left: 50vw; z-index: 10}
+#blockSix {top: 30%; left: 30%; z-index: 20}
+#blockSeven {top: 14px; left: 200px; z-index: -10}
+#blockEight {top: 125px; left: 50px; z-index: -1}
+#blockNine {bottom: 125px; right: 220px; z-index: 0}

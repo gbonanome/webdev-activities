@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Il mio primo sito web</title>
+    <style>
+
+        body {
+            background: url('images/sfondo_blu.jpg') no-repeat;
+            font-family: 'Helvetica Neue', sans-serif;
+            color: #eee;
+        }
+
+        .avatar {
+            max-width: 200px;
+        }
+        
+        /* 
+         * Per capire meglio che un testo si può cliccare, quando usiamo i link vengono mostrati
+         * sottolineati. Noi invece vogliamo fare in modo che i link siano di un colore diverso
+         * e senza sottolineatura, ma che diventino sottolineati quando ci passiamo sopra con 
+         * il mouse.
+         */
+        a {
+            color: red;
+            text-decoration: none;
+        }
+
+        /* Per applicare una regola quando passiamo sopra all'elemento con il mouse 
+         * bisogna appiccicare ":hover" all'elemento da modificare
+         */
+        a:hover {
+            /* font-size: 20px; */
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+
+<body>
+        <h1>Benvenuti</h1>
+        <h2>Questo &egrave; il mio primo sito web.</h2>
+
+        <img src="images/finn.png" title="Finn di Adventure Time" class="avatar">
+        
+        <h3>Scopriamo i link - parte 3</h3>
+        <p> 
+            Prova a passare con il mouse sopra al link, cosa succede? 
+            <br>
+            Eccoti il <a href="link2.html">link</a>. Prova a guardare il codice sorgente per scoprirne di più.
+        </p>
+
+    </body>
+</html>
+
+
+

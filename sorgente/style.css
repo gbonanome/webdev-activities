@@ -1,0 +1,9 @@
+body {
+  background: url('images/sfondo_blu.jpg') no-repeat;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #eee;
+}
+
+.avatar {
+  max-width: 200px;
+}
