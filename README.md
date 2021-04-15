@@ -2,7 +2,7 @@
 
 Una collezione di esercizi utilizzati per un corso di web development per non-sviluppatori. Pensato soprattutto per introdurre ai concetti base di HTML e CSS.
 
-Una spiegazione di come proporre queste attività è presente sul mio blog [a questo link](https://omote.bonano.me/2021/04/14/appunti-per-un-corso-di-web-development/)
+Una spiegazione di come proporre queste attività è presente sul mio blog [a questo link](https://omote.bonano.me/2021/04/14/appunti-da-un-corso-di-web-development/)
 
 
 ## Alcuni link rapidi
